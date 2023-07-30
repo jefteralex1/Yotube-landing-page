@@ -1,0 +1,215 @@
+body{
+    height: 1024px;
+    width: 1040px;
+}
+
+header{
+    display: flex;
+    width: 1440px;
+    height: 56px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #FFF;
+}
+
+.left .menu{
+    height: 24px;
+    width: 24px;
+    color: black;
+    background-color: #FFF;
+    margin-right: 24px;
+}
+
+.left .youtube{
+    width: 90px;
+    height: 20px;
+    flex-shrink: 0;
+    background-color: white;
+}
+
+.left, .center, .right{
+    display: flex;
+    flex-direction: row;
+}
+
+.center input{
+    width: 348px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin-right: 0;
+}
+
+.center button{
+    margin-left: 0;
+    width: 57px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: #F8F8F8;
+}
+
+.center .lupa{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: black;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+   align-items: center;
+    gap: 24px;
+}
+
+.container {
+    display: flex;
+}
+
+main{
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+margin: 28px 25px 194px 75px;
+}
+
+.video img{
+    width: 952px;
+    height: 537px;
+    margin-bottom: px;
+}
+
+.titulo{
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.opcoes{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+gap: 42px;
+width: 902px;
+height: 42px;
+}
+
+.opcoes button{
+    width: 159px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #C00;
+}
+
+.opcoes button p{
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.opcoes .inscritos{
+    display: flex;
+    align-items: center;
+}
+
+.opcoes .inscritos img{
+    margin-right: 12px;
+}
+
+.opcoes .like{
+    margin-right: 0px;
+}
+
+.opcoes .info{
+    color: #000;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-right: 47px;
+}
+
+.opcoes .infos{
+    width: 412px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+main .vi{
+    color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+main .descricao{
+    color: #515151;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 510px;
+height: 64px;
+}
+
+.sidebar {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 28px;
+}
+  
+.sidebar .video-um {
+    display: flex;
+}
+
+.sidebar .video-um iframe{
+    width: 160px;
+    height: 90px;
+    margin-right: 16px;
+}
+
+.des-video{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.titulo-video{
+    width: 196px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.texto-dois{
+    width: 196px;
+color: #515151;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
